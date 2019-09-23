@@ -40,7 +40,6 @@ def play(songs)
     else 
       p "Invalid input, please try again"
     end
-    
     i +=1 
   end 
   if found == 0 
@@ -64,7 +63,9 @@ def run(argument)
     elsif input == "play" 
       play(songs)
     elsif input == "help"
-      help 
+      help
+    else 
+      exit_jukebox
     end 
   end 
 end 
