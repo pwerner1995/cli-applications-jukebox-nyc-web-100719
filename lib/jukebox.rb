@@ -58,7 +58,7 @@ def run(argument)
     exit_jukebox
   end
   p input
-  while input != "" do
+  while input != "exit" do
     input = gets.strip
     p input
     if input == list
@@ -67,8 +67,6 @@ def run(argument)
       play(songs)
     elsif input == "help"
       help
-    else 
-      exit_jukebox
     end 
   end 
 end 
