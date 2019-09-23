@@ -59,8 +59,8 @@ def run(argument)
   end
   p input
   while input != "exit" do
-    #p input
     input = gets.strip
+    p input
     if input == list
       list(songs)
     elsif input == "play" 
