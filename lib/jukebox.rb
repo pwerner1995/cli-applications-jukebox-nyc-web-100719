@@ -38,12 +38,12 @@ def play(songs)
       puts "Playing #{songs[i]}"
       found=1
     else 
-      puts "Invalid input, please try again"
+      p "Invalid input, please try again"
     end
     i +=1 
   end 
   if found == 0 
-    p "Invalid input, please try again"
+    puts "Invalid input, please try again"
   end 
 end 
 
