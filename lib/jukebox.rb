@@ -54,8 +54,7 @@ def run(argument)
   puts "Please enter a command:"
   input = gets.strip
   while input != "exit" do
-    puts "Please enter a command:"
-    input = gets.strip
+    
     if input == "list"
       p "list"
       list(songs)
@@ -64,7 +63,9 @@ def run(argument)
     elsif input == "help"
       p "help"
       help
-    end 
+    end
+    puts "Please enter a command:"
+    input = gets.strip
   end
   if input == "exit"
     exit_jukebox
