@@ -67,6 +67,9 @@ def run(argument)
     elsif input == "help"
       help
     end 
-  end 
+  end
+  if input == "exit"
+    exit_jukebox
+  end
 end 
 
