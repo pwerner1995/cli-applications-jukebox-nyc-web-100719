@@ -30,26 +30,19 @@ def play(songs)
   puts "Please enter a song name or number: "
   input = gets.strip
   i = 0
-<<<<<<< HEAD
-  found = 0 
-=======
->>>>>>> d60b16aa5861d7a831d0d0d0afdbf615fe26e848
+  found = 0
   p input
   while songs.length>i do 
     num = "#{i+1}" 
     if (input == songs[i] or input == num) 
       puts "Playing #{songs[i]}"
-<<<<<<< HEAD
       found=1
-=======
     else 
       p "Invalid input, please try again"
->>>>>>> d60b16aa5861d7a831d0d0d0afdbf615fe26e848
     end
     
     i +=1 
   end 
-<<<<<<< HEAD
   if found == 0 
     puts "Invalid input, please try again"
   end 
@@ -74,21 +67,5 @@ def run(argument)
       help 
     end 
   end 
-=======
->>>>>>> d60b16aa5861d7a831d0d0d0afdbf615fe26e848
-  
 end 
 
-
-
-
-
-
-
-
-
-
-<<<<<<< HEAD
-=======
-
->>>>>>> d60b16aa5861d7a831d0d0d0afdbf615fe26e848
