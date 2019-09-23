@@ -56,7 +56,8 @@ def run(argument)
   p input
   if input == "exit"
     exit_jukebox
-  end 
+  end
+  p input
   while input != "exit" do
     p input 
     if input == list
