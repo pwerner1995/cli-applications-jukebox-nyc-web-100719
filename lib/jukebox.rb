@@ -53,6 +53,7 @@ end
 def run(argument)
   puts "Please enter a command:"
   input = gets.strip
+  puts songs
   while input != "exit" do
     puts "Please enter a command:"
     input = gets.strip
