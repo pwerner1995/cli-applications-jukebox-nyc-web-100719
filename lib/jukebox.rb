@@ -53,9 +53,6 @@ end
 def run(argument)
   puts "Please enter a command:"
   input = gets.strip
-  #p input
-  
-  p input
   while input != "exit" do
     puts "Please enter a command:"
     input = gets.strip
