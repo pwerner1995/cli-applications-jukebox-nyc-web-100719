@@ -31,7 +31,6 @@ def play(songs)
   input = gets.strip
   i = 0
   found = 0
-  p input
   while songs.length>i do 
     num = "#{i+1}" 
     if (input == songs[i] or input == num) 
