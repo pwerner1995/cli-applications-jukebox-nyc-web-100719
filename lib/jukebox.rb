@@ -43,7 +43,7 @@ def play(songs)
     i +=1 
   end 
   if found == 0 
-    puts "Invalid input, please try again"
+    p "Invalid input, please try again"
   end 
 end 
 
