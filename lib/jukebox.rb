@@ -53,13 +53,13 @@ end
 def run(argument)
   puts "Please enter a command:"
   input = gets.strip
-  p input
+  #p input
   if input == "exit"
     exit_jukebox
   end
   p input
   while input != "exit" do
-    p input
+    #p input
     input = gets.strip
     if input == list
       list(songs)
