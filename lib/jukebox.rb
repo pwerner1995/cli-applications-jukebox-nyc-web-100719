@@ -61,6 +61,7 @@ def run(argument)
     elsif input == "play" 
       play(songs)
     elsif input == "help"
+      p "help"
       help
     end 
   end
