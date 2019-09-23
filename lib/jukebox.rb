@@ -57,6 +57,7 @@ def run(argument)
     puts "Please enter a command:"
     input = gets.strip
     if input == "list"
+      p "list"
       list(songs)
     elsif input == "play" 
       play(songs)
