@@ -54,9 +54,7 @@ def run(argument)
   puts "Please enter a command:"
   input = gets.strip
   #p input
-  if input == "exit"
-    exit_jukebox
-  end
+  
   p input
   while input != "exit" do
     puts "Please enter a command:"
